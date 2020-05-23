@@ -17,7 +17,7 @@ getMyIP();
 Alternatively, you can use it directly from the CLI by using deno run:
 
 ```bash
-deno run --allow-net https://raw.githubusercontent.com/denorg/getip/master/cli.ts
+deno run --allow-net https://raw.githubusercontent.com/denorg/getip/master/cli.ts <ipv4 | ipv6>
 ```
 
 You can also install it globally using the following:
@@ -29,7 +29,7 @@ deno install --allow-net -n getip https://raw.githubusercontent.com/denorg/getip
 Then, the package is available to run:
 
 ```bash
-getip
+getip <ipv4 | ipv6>
 ```
 
 Required permissions:

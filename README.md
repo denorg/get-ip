@@ -1,43 +1,47 @@
-# 🏁 Deno Starter
+# 🌐 getip
 
-This is a starter template for building Deno packages, with GitHub Actions CI, tests,and a CLI.
+Get your public IP address in Deno.
 
-[![Test CI](https://github.com/denorg/starter/workflows/Test%20CI/badge.svg)](https://github.com/denorg/starter/actions)
+[![Test CI](https://github.com/denorg/getip/workflows/Test%20CI/badge.svg)](https://github.com/denorg/getip/actions)
 
 ```ts
-import { mode } from "https://raw.githubusercontent.com/denorg/starter/master/mod.ts";
+import { mode } from "https://raw.githubusercontent.com/denorg/getip/master/mod.ts";
 
-const result = mode();
+const getMyIP = async () => {
+  console.log(`Your public IP is ${await getIP({ipv6: true})}`);
+}
+
+getMyIP();
 ```
 
 Alternatively, you can use it directly from the CLI by using deno run:
 
 ```bash
-deno run --allow-read https://raw.githubusercontent.com/denorg/starter/master/cli.ts <arguments>
+deno run --allow-net https://raw.githubusercontent.com/denorg/getip/master/cli.ts
 ```
 
 You can also install it globally using the following:
 
 ```bash
-deno install --allow-read -n starter https://raw.githubusercontent.com/denorg/starter/master/cli.ts
+deno install --allow-net -n getip https://raw.githubusercontent.com/denorg/getip/master/cli.ts
 ```
 
 Then, the package is available to run:
 
 ```bash
-starter <arguments>
+getip
 ```
 
 Required permissions:
 
-1. `--allow-read`
+1. `--allow-net`
 
 ## 👩‍💻 Development
 
 Run tests:
 
 ```bash
-deno test --allow-read
+deno test --allow-net
 ```
 
 ## 📄 License

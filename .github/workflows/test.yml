@@ -1,5 +1,7 @@
 name: Test CI
+
 on: [push, pull_request]
+
 jobs:
   build:
     name: ${{ matrix.kind }} ${{ matrix.os }}

@@ -24,7 +24,7 @@ After [installing DPX](https://github.com/denorg/dpx), you can directly use the 
 
 ```bash
 dpx get_ip <ipv4 | ipv6>
-//=> '123.456.789.012'
+# 123.456.789.012
 ```
 
 ### CLI
@@ -33,7 +33,7 @@ Alternatively, you can use it directly from the CLI by using `deno run`:
 
 ```bash
 deno run --allow-net https://deno.land/x/get_ip/cli.ts <ipv4 | ipv6>
-//=> '123.456.789.012'
+# 123.456.789.012
 ```
 
 You can also install it globally using the following:
@@ -46,7 +46,7 @@ Then, the package is available to run:
 
 ```bash
 get_ip <ipv4 | ipv6>
-//=> '123.456.789.012'
+# 123.456.789.012
 ```
 
 ### Configuration

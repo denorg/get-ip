@@ -23,7 +23,7 @@ deno run --allow-net https://deno.land/x/get_ip/cli.ts <ipv4 | ipv6>
 You can also install it globally using the following:
 
 ```bash
-deno install --allow-net -n get_ip https://deno.land/x/get_ip/cli.ts
+deno install --allow-net -n get-ip https://deno.land/x/get_ip/cli.ts
 ```
 
 Then, the package is available to run:

@@ -2,7 +2,13 @@
 
 Get your public IP address in Deno.
 
-[![Test CI](https://github.com/denorg/get-ip/workflows/Test%20CI/badge.svg)](https://github.com/denorg/get-ip/actions)
+[![Deno CI](https://github.com/denorg/get-ip/workflows/Deno%20CI/badge.svg)](https://github.com/denorg/get-ip/actions)
+[![GitHub](https://img.shields.io/github/license/denorg/get-ip)](https://github.com/denorg/get-ip/blob/master/LICENSE)
+[![Contributors](https://img.shields.io/github/contributors/denorg/get-ip)](https://github.com/denorg/get-ip/graphs/contributors)
+[![Deno Starter](https://img.shields.io/badge/deno-starter-brightgreen)](https://denorg.github.io/starter/)
+[![Made by Denorg](https://img.shields.io/badge/made%20by-denorg-0082fb)](https://github.com/denorg)
+[![TypeScript](https://img.shields.io/badge/types-TypeScript-blue)](https://github.com/denorg/get-ip)
+[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
 ## ⭐ Getting started
 

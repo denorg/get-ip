@@ -8,8 +8,8 @@ const getData = async (endpoint: string) => {
   return data;
 };
 
-export async function getIP({ipv6: boolean = false} = {}) {
-	endpoint = ipv6 ? ENDPOINT_IPV6 : ENDPOINT_IPV4;
-	const response = await getData(endpoint);
+export async function getIP({ipv6 = false} = {}) {
+  endpoint = ipv6 ? ENDPOINT_IPV6 : ENDPOINT_IPV4;
+  const response = await getData(endpoint);
   return response.ip;
 }
